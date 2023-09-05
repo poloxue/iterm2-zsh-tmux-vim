@@ -1,12 +1,4 @@
-This repostorry is a tutorial to build my own development environment from sctach. Softwares and packages we need:
-
-- iterm2,
-- zsh
-- oh-my-zsh
-- tmux
-- neovim
-
-How does it look like?
+Build my own development environment from sctach. Softwares and packages include iterm2, zsh, oh-my-zsh, tmux, and neovim. Let's take a look at how it look like?
 
 # Installation
 
