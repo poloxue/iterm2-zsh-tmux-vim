@@ -1,4 +1,10 @@
-After having done a lot work for several weeks, finally, I successfully setup my workflow using iterm, zsh, oh-my-zsh, tmux and neovim.
+This repostorry is a tutorial to build my own development environment from sctach. Softwares and packages we need:
+
+- iterm2,
+- zsh
+- oh-my-zsh
+- tmux
+- neovim
 
 How does it look like?
 
