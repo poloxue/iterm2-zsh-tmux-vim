@@ -1,8 +1,8 @@
-Build my own development environment from sctach. Softwares and packages include iterm2, zsh, oh-my-zsh, tmux, and neovim. Let's take a look at how it look like?
+Build up my own development environment from sctach. Softwares and packages we need include iterm2, zsh, oh-my-zsh, tmux, and neovim. Let's take a look at how it look like?
 
 # Installation
 
-First, let's install all package we need in this tutorial.
+Firstly, install all packages and softwares.
 
 ## Homebrew
 
@@ -12,7 +12,6 @@ We can install it using command below:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
 ```
 
 ## iterm2
@@ -29,10 +28,14 @@ Download and install by git clone oh-my-zsh from github.
 
 ```
 
-3. oh-my-zsh theme
+# Iterm2 Configurate
+
+# oh-my-zsh theme
+
+# oh-my-zsh plugins
+
 
 4. oh-my-zsh plugins
-
 
 5. tmux install
 
