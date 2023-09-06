@@ -1,4 +1,4 @@
-If your like coding on your terminal, you must want have a easy-to-use workflow. Today, I'm going to share how to set up a high-productivityworlflow for you.
+If your like coding on your terminal, you must want have a easy-to-use workflow. Today, I'm going to share how to set up a high-productivity workflow for you.
 
 # Installation
 
