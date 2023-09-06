@@ -1,14 +1,8 @@
-Build up my own development environment from sctach. Softwares and packages we need include iterm2, zsh, oh-my-zsh, tmux, and neovim. Let's take a look at how it look like?
+If your like coding on your terminal, you must want have a easy-to-use workflow. Today, I'm going to share how to set up a high-productivityworlflow for you.
 
 # Installation
 
-Firstly, install all packages and softwares.
-
-## Homebrew
-
-It calls itself "The Missing Package Manager for macOS (or Linux)".
-
-We can install it using command below:
+Open your terminal, use the following command to install `Homebrew`.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -16,7 +10,10 @@ We can install it using command below:
 
 ## iterm2
 
-You can download iterm2 from [iterm2](https://iterm2.com/) or using homebrew command `brew install --cask iterm2`.
+there are two ways to install iterm2:
+
+- Download iterm2 from [iterm2](https://iterm2.com/);
+- Homebrew: `brew install --cask iterm2`;
 
 # oh-my-zsh
 
