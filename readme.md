@@ -1,48 +1,6 @@
-If your like coding on your terminal, you must want have a easy-to-use workflow. Today, I'm going to share how to set up a high-productivity workflow for you.
+# macOS 基于终端搭建一套高效工作流
 
-# Installation
+本系列将基于 iTerm2, Zsh, Tmux, Vim 搭建一套高效的编码环境。抛弃鼠标、随心所欲、提升效率。
 
-Open your terminal, use the following command to install `Homebrew`.
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-```
-
-## iterm2
-
-there are two ways to install iterm2:
-
-- Download iterm2 from [iterm2](https://iterm2.com/);
-- Homebrew: `brew install --cask iterm2`;
-
-# oh-my-zsh
-
-oh-my-zsh is a framework to manage zsh configuration.
-
-Download and install by git clone oh-my-zsh from github.
-
-```bash
-
-```
-
-# Iterm2 Configurate
-
-# oh-my-zsh theme
-
-# oh-my-zsh plugins
-
-
-4. oh-my-zsh plugins
-
-5. tmux install
-
-6. tmux configuration
-
-7. create a tmux session
-
-8. create a tmux window
-
-9. swith between different sessions
-
-10. install nvim
-
+- [Part One: Iterm2 + Zsh + ohmyzsh](./part1-iterm2-zsh-and-oh-my-zsh.md)
+- [Part Two: Tmux's Guide](./part2-tmux-guide.md)
