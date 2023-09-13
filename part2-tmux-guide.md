@@ -1,5 +1,5 @@
 - 说明：Tmux 是什么？终端复用器。
-- 文档：
+- 文档：[Tmux official documentation](https://github.com/tmux/tmux/wiki)
 - 安装：
   ```zsh
   brew install tmux
