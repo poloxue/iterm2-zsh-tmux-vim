@@ -1,51 +1,25 @@
-## 安装依赖
-
-Homebrew 官网：[brew.sh](https://brew.sh)。
-
-安装命令：
-
-```zsh
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-## iTerm2
-
-MacOS 默认终端是 Terminal，使用 iTerm2 替代。
-
-## 安装
-
-第一种方式，官网下载 https://iterm2.com/。
-
-第二种方式，Homebrew 安装，命令如下：
-
-```zsh
-$ brew install --cask iterm2
-```
-
-## 配色
-
-以 Material Design Colours 为实例介绍如何设置。
-
-1. 下载安装:
-
-```zsh
-$ curl -Ls https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors > /tmp/material-design-colors.itermcolors && open /tmp/material-design-colors.itermcolors
-```
-
-2. 选择 iTerm2-> Settings -> Profiles -> Profiles -> 'Colors' Tab
-3. 点击 Color Presets
-4. 从 Load Presets 选择 masterial-design-colors
-
-其他配色：
-
-```zsh
-# Install Snazzy
-curl -Ls https://raw.githubusercontent.com/sindresorhus/iterm2-snazzy/main/Snazzy.itermcolors > /tmp/Snazzy.itermcolors && open /tmp/Snazzy.itermcolors
-# Install Dracula:
-curl -Ls https://raw.githubusercontent.com/dracula/iterm/master/Dracula.itermcolors > /tmp/Dracula.itermcolors && open /tmp/Dracula.itermcolors
-```
-
-# zsh
+- 安装依赖: 
+  - 进入 Homebrew 官网：[brew.sh](https://brew.sh)。
+  - 安装命令：/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+- iTerm2
+  - 说明：MacOS 默认终端是 Terminal，使用 iTerm2 替代。
+  - 安装
+    - 方式一，官网下载 https://iterm2.com/。
+    - 方式二，brew 命令 - brew install --cask iterm2
+- 配色
+  - 说明：以 Material Design Colours 为例介绍如何设置。
+  - 安装
+    - curl -Ls https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors > /tmp/material-design-colors.itermcolors && open /tmp/material-design-colors.itermcolors
+  - 配置：
+    - 进入 iTerm2-> Settings -> Profiles -> Profiles -> 'Colors' Tab
+    - 选择 Color Presets
+    - 从 Load Presets 选择 masterial-design-colors
+  - 其他配色：
+    - 安装 Snazzy
+      - curl -Ls https://raw.githubusercontent.com/sindresorhus/iterm2-snazzy/main/Snazzy.itermcolors > /tmp/Snazzy.itermcolors && open /tmp/Snazzy.itermcolors
+    - 安装 Dracula:
+      - curl -Ls https://raw.githubusercontent.com/dracula/iterm/master/Dracula.itermcolors > /tmp/Dracula.itermcolors && open /tmp/Dracula.itermcolors
+- zsh
 
 安装命令：`brew install zsh`。注：2019 开始，macOS 默认 shell 从 bash 切换到 zsh.
 

@@ -3,5 +3,6 @@
 本系列将基于 iTerm2, Zsh, Tmux, Vim 搭建一套高效的编码环境。抛弃鼠标、随心所欲、提升效率。
 
 - [Part One: Iterm2 + Zsh + ohmyzsh](./part1-iterm2-zsh-and-oh-my-zsh.md)
-- [Part Two: LunarVim's Guide](./part2-neovim-guide.md)
+- [Part Two: LunarVim's Guide](./part2-lunarvim-guide.md)
 - [Part Three: Tmux's Guide](./part2-tmux-guide.md)
+
