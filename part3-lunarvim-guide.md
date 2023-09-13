@@ -1,6 +1,6 @@
-[官网安装文档](https://www.lunarvim.org/docs/installation)
 
 - 说明：LuanrVim 是一款基于 neovim 配置开发而来的全功能 IDE。
+- 文档：[官网指南](https://www.lunarvim.org/docs/installation)
 - 安装
   - 依赖组件: brew install git make python nodejs rust
   - 安装LunarVim
@@ -68,7 +68,4 @@
     - vim.opt['xxx#xx'] 特殊字符
   - 配置插件
   - 文件类型
-
-# 配置 Python IDE
-
 
