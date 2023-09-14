@@ -10,18 +10,31 @@
   ```
 - 概念: 会话（session）-> 窗口（window） -> 窗格（pane）
 - 使用：
-  - session 会话：
-    - 新建会话：```tmux new -t <session-name>```
-    - 脱离会话：```tmux detach -t <session-name>```
-    - 连接会话：```tmux attach -t <session-name>```
-    - 查看会话：
-      - 在 tmux 应用下；
-      - 查看 sessions（会话列表）：prefix-key + s
-      - 选择 session：hjkl 选择，<cr> enter 选择会话；
+  - 说明：效果演示时，通过命令演示 Tmux 的操作效果，实际使用时依据命令作用绑定到快捷键。
+  - 会话：
+    - 新建会话：```tmux new|new-session -s <session-name>```
+    - 脱离会话：```tmux detach|detach-session -s <session-name>```
+    - 连接会话：```tmux attach|attach-session -s <session-name>```
+    - 查看会话：```tmux list|list-sessions ```
+    - 退出会话：```tmux kill|kill-session -s <session-name>```
+    - 切换会话：```tmux switch|switch-session -t <session-name>```
+    - 重命名会话：```tmux rename|rename-session -t <session-name> <new-session-name>```
+  - 窗格： 
+    - 说明：如下是 pane 管理的常用命令。
+    - 划分窗格：
+      - 垂直分屏：```tmux split-window``` 
+      - 水平分屏：```tmux split-window -h```
+    - 窗格切换：
+      - 向上切换：```tmux select-pane -U```
+      - 向下切换：```tmux select-pane -D```
+      - 向左切换：```tmux select-pane -L```
+      - 向右切换：```tmux select-pane -R```
   - window 窗口：
     - 新建窗口：tmux new-window -n <window-name>
     - 
-
+- Tmux 配置
+  - 阅读：
+  - 前缀键：唤起 tmux 快捷键模式；
 - 基础配置
   - 配置文件 ~/.tmux.conf。
   - 配置 terminal：
@@ -42,7 +55,7 @@
     bind | split-window -h -c "#{pane_current_path}"
     # 垂直分屏
     unbind '"'
-    bind - split-window -v -v "#{pane_current_path}"
+    bind - split-window -v -c "#{pane_current_path}"
     ```
   - 快捷键
     ```tmux
