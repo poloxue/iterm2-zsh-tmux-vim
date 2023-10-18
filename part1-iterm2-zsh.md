@@ -97,7 +97,7 @@ Lesson 3 介绍 5 个 zsh 插件
     - Vim 模式
       - bindkey -M vicmd 'k' history-substring-search-up
       - bindkey -M vicmd 'j' history-substring-search-up
-  - [you-should-use]https://github.com/MichaelAquilina/zsh-you-should-use()
+  - [you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
     - 用途：用于提醒使用者，如果使用的命令存在命令，提示推荐使用的别名；
 
 Lesson 4 - powerlevel10k 主题扩展和 ls 命令的替代方案
