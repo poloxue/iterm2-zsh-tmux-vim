@@ -1,62 +1,62 @@
 
-- 说明：LuanrVim 是一款基于 neovim 配置开发而来的全功能 IDE。
-- 文档：[官网指南](https://www.lunarvim.org/docs/installation)
-- 安装
-  - 依赖组件: brew install git make python nodejs rust
-  - 安装LunarVim
-    - LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
-  - 字体（NerdFont）
-    - 安装：brew install font-hack-nerd-fonts
-    - 配置：选择 iTerm2 -> Profiles -> Text > Non-ASCII Font ->  勾选 "Use different font for non-ASCII text"，然后 Select "Nerd font"。
-- 体验
-  - 命令：到指定目录，执行 `lvim`；
-  - 说明：leader 键是 <space>，which-key 插件提供快捷键向导；
-    - 查看快捷键列表：<Space>Sk
-  - 基本操作快捷键：
-    - 文件浏览
-      - 打开关闭：Space>e
-      - 新建：文件树下执行 a
-      - 重名名：文件树下输入 r
-      - 删除：文件输下输入 d
-    - 搜索相关：
-      - 文件搜索；
-      - 文本搜索；
-    - 编程语言，LSP(Language Server Protocol) 快捷键。
-      - 函数定义 - gd
-      - 函数声明 - gD
-      - 函数调用 - gr
-      - 跳转回退 - <C-o>
-      - 代码诊断 - gl 重复 gl 代码诊断窗口
-      - 行的注释 - <Space>/
-      - 块的注释 - gb
-      - 上移代码（行/块）<M-k> 
-      - 下移代码（行/块）<M-j>， 注：M -> MetaKey，iTerm2 单独配置；
-    - 自动补全快捷键；
-      - 显示补全 <C-space>
-      - 确认补全 <CR> <C-y>
-      - 上下移动，方向键，<C+kj>, <C+np>, <Tab>
-    - 窗口控制类快捷键；
-      - 窗口跳转，<C-hjkl>
-      - 大小调整，
-        - <A-Left> 缩小窗口宽度；
-        - <A-Right> 扩大窗口宽度；
-        - <A-Up> 缩小窗口高度；
-        - <A-Right> 扩大窗口高度；
-- Git 功能
-  - <Space>g 查看 Git 功能
-    - Checkout
-      - branch
-      - commit
-  - 内置了 lazygit，增强 Lunarvim 的 Git 体验。
-    - 安装: brew install lazygit
-    - 启动：<Space>gg
-    - 命令
-      - Add 增加 - a
-      - Commit 提价 - c
-      - Pull 拉去 - p
-      - Push 推送 - P
-    - 窗口跳转
-      - <Tab> <Shift+Tab>
+说明：LuanrVim 是一款基于 neovim 配置开发而来的全功能 IDE。
+文档：[官网指南](https://www.lunarvim.org/docs/installation)
+安装
+- 依赖组件: brew install git make python nodejs rust
+- 安装LunarVim
+  - LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+- 字体（NerdFont）
+  - 安装：brew install font-hack-nerd-fonts
+  - 配置：选择 iTerm2 -> Profiles -> Text > Non-ASCII Font ->  勾选 "Use different font for non-ASCII text"，然后 Select "Nerd font"。
+体验
+- 命令：到指定目录，执行 `lvim`；
+- 说明：leader 键是 <space>，which-key 插件提供快捷键向导；
+  - 查看快捷键列表：<Space>Sk
+- 基本操作快捷键：
+  - 文件浏览
+    - 打开关闭：Space>e
+    - 新建：文件树下执行 a
+    - 重名名：文件树下输入 r
+    - 删除：文件输下输入 d
+  - 搜索相关：
+    - 文件搜索；
+    - 文本搜索；
+  - 编程语言，LSP(Language Server Protocol) 快捷键。
+    - 函数定义 - gd
+    - 函数声明 - gD
+    - 函数调用 - gr
+    - 跳转回退 - <C-o>
+    - 代码诊断 - gl 重复 gl 代码诊断窗口
+    - 行的注释 - <Space>/
+    - 块的注释 - gb
+    - 上移代码（行/块）<M-k> 
+    - 下移代码（行/块）<M-j>， 注：M -> MetaKey，iTerm2 单独配置；
+  - 自动补全快捷键；
+    - 显示补全 <C-space>
+    - 确认补全 <CR> <C-y>
+    - 上下移动，方向键，<C+kj>, <C+np>, <Tab>
+  - 窗口控制类快捷键；
+    - 窗口跳转，<C-hjkl>
+    - 大小调整，
+      - <A-Left> 缩小窗口宽度；
+      - <A-Right> 扩大窗口宽度；
+      - <A-Up> 缩小窗口高度；
+      - <A-Right> 扩大窗口高度；
+Git 功能
+- <Space>g 查看 Git 功能
+  - Checkout
+    - branch
+    - commit
+- 内置了 lazygit，增强 Lunarvim 的 Git 体验。
+  - 安装: brew install lazygit
+  - 启动：<Space>gg
+  - 命令
+    - Add 增加 - a
+    - Commit 提价 - c
+    - Pull 拉去 - p
+    - Push 推送 - P
+  - 窗口跳转
+    - <Tab> <Shift+Tab>
 - 配置
   - 阅读：[Learn Vimscript Hard Way](https://learnvimscriptthehardway.stevelosh.com/)
   - 位置：macOS or unix-like os: .config/lvim/
