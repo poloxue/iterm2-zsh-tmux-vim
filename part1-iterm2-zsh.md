@@ -72,10 +72,10 @@ oh-my-zsh
    bindkey '^_' autosuggest-accept```
   - 说明：
     - <Ctrl+/> 接受 auto-suggestion 的补全建议
+
+Lesson 3 介绍 5 个 zsh 插件
+
 - 推荐：[awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins)，更多的插件与主题；
-
-Lesson 3 更多插件+powerlevel10k 主题扩展
-
 - 插件配置：`plugins=(git web-search jsontools z copypath copyfile copybuffer vi-mode zsh-syntax-highlighting zsh-autosugggestions zsh-history-substring-search)`
 - 内置插件
   - [copypath](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath)
@@ -108,6 +108,11 @@ powerlevel10k 主题扩展
   - Homebrew 安装
     - brew tap homebrew/cask-fonts
     - brew install font-hack-nerd-font
+  - 配置:
+    - iTerm2
+      - Settings -> Profiles -> Text -> Font -> MesloLGS NF
+    - Terminal
+      - Settings -> Profile -> Text -> Font -> Change to MeslonLGS NF
 - 下载 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 - 配置 `~/.zshrc`
   - 将 zsh 提示符主题切换为 `ZSH_THEME="powerlevel10k"`
